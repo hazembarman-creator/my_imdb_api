@@ -1,16 +1,29 @@
 # My IMDB API
+A simple Flask API that allows users to search for movies by genre.  
+This project demonstrates how to build a lightweight REST API using Python, Flask, and Pandas.
+
+***
 
 ## Description
-This is a simple Flask API to search for movies by genre.
+This API loads a movie dataset and provides an endpoint to filter movies based on genre.  
+It is designed to be simple, fast, and easy to extend.
+
+### Features:
+- Search movies by genre  
+- JSON responses  
+- Lightweight and easy to deploy  
+- Built using Flask  
+- Uses Pandas for data handling  
+
+***
 
 ## Installation
+Follow these steps to install and run the project:
 
-1. Clone the repository or download the code.
-2. Make sure you have Python and pip installed.
-3. Install Flask:
-   ```bash
-   pip install Flask pandas
+```bash
+# Clone the repository
+git clone https://github.com/username/my_imdb_api.git
+cd my_imdb_api
 
-
-<span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
-<span><img alt='Qwasar SV -- Software Engineering School's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px' /></span>
+# Install dependencies
+pip install Flask pandas
